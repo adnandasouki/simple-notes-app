@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "673797146335",
+    "project_id": "usertrack-99101",
+    "storage_bucket": "usertrack-99101.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673797146335:android:ae2d8a108c1b742aa10b6a",
+        "android_client_info": {
+          "package_name": "com.example.usertrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6-CYlrE8SyrTEIAcFNImx1VDkFhu701M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

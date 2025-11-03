@@ -1,0 +1,21 @@
+## Class
+1. the @override annotation only works if the method exists in the parent class.
+2. The file name and class name can be different, though it’s a good practice to keep them similar for readability.
+
+## Methods
+For a StatelessWidget Class
+1. build(BuildContext context) → defines the UI.
+
+For a StatefulWidget Class
+1. initState() → called once when the widget is inserted in the widget tree.
+2. dispose() → called when the widget is removed.
+3. didChangeDependencies() → called when inherited widgets change.
+4. didUpdateWidget(covariant OldWidget oldWidget) → called when the widget configuration changes.
+5. build(BuildContext context) → defines the UI.
+
+## Navigation
+1. you can define multiple classes/widgets in the same file, but when navigating (e.g., with Navigator.push), you instantiate and navigate to a specific widget only.
+
+Unsorted notes
+1. Not having BuildContext context doesn’t prevent building; it only prevents the widget from accessing inherited widgets, theme data, or other context-dependent information.
+2. setState() only triggers the build() method of that specific widget’s State class.
